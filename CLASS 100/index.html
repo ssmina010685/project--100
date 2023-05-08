@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <title>My Selfie App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link href="style.css" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js" type="text/javascript"></script>
+
+</head>
+
+<body class="abc" background="https://img.freepik.com/free-vector/gradient-dynamic-lines-background_23-2149005728.jpg?t=st=1683526731~exp=1683527331~hmac=3a01379768294d33a631584bc9cb8a3d0d111853d3de4d415b4a94d8b57fffe1">
+    <center class="abc" background="https://img.freepik.com/free-vector/gradient-dynamic-lines-background_23-2149005728.jpg?t=st=1683526731~exp=1683527331~hmac=3a01379768294d33a631584bc9cb8a3d0d111853d3de4d415b4a94d8b57fffe1">
+        <h1>Collage Web App </h1>
+        <hr>
+        <h4>Please press allow as soon as popup comes. After you give a voice command</h4>
+
+        <h3>Say "selfie" for Taking your selfie to make a Collage</h3>
+
+        <button class="btn btn-lg btn-primary" onclick="start()">Start</button>
+        <h4>Press the Start button</h4>
+
+        <label>Your webcam : </label>
+        <div id="camera"></div>
+            <textarea class="form-control" id="textbox" readonly="true"></textarea>
+        <br>
+
+        <label>Your selife Will Display Here: </label>
+        <br>
+        <div id="resultRow">
+            <div id="result1" class="column">
+                <img src="https://media.istockphoto.com/id/863565844/photo/taking-a-portrait-with-a-dslr-camera.jpg?s=170667a&w=0&k=20&c=uHbYsHO1v0MmOOmjBkDE-zhh9J-dRtgyBeea3Fz4AYc=">
+            </div>
+
+            <div id="result2" class="column">
+                <img src="https://media.istockphoto.com/id/618066222/photo/camera-capturing-a-forest.jpg?s=612x612&w=0&k=20&c=Mqr3fFI2QPY09_bu3GyRYJvcdwBO2qeHPT88GFsLTS4=">
+            </div>
+
+            <div id="result3" class="column">
+                <img src="https://images.pexels.com/photos/243757/pexels-photo-243757.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+            </div>
+        </div>
+    </center>
+
+    <div class="copy_right_footer">
+        Developed by - Peter
+      </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
